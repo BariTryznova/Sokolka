@@ -64,20 +64,52 @@ body {
   font-weight: 300;
 }
 
-.about {
-  background-color: #EAE6E5;
+.section {
+  text-align: center;
   padding: 30px;
 }
 
-.about h2 {
+.section h2 {
   margin-top: 0;
+}
+
+.about {
+  background-color: #EAE6E5;
+  position: relative;
+  min-height: 280px;
+  margin-bottom: 150px;
+}
+
+.about--image {
+  max-height: 200px;
+  position: absolute;
+  left: 25%;
+  border-radius: 15px;
+  border: 5px solid #EAE6E5;
 }
 
 .who {
   background-color: #E17375;
-  padding: 30px;
+  color: white;
 }
 
-.who h2 {
-  margin-top: 0;
+.footer {
+  background-color: #5F7470;
+  display: flex;
+  padding: 20px 30px;
+  color: white;
+}
+
+.footer p {
+  flex: 1 0 50%;
+  font-size: 14px;
+  text-align: center;
+}
+
+.footer a {
+  color: #EAE6E5;
+}
+
+.footer a:hover, .footer a:active {
+  color: #E17375;
 }/*# sourceMappingURL=style.css.map */

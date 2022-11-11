@@ -69,24 +69,64 @@ body {
     font-weight: 300;
 }
 
+// section all
+
+.section {
+    text-align: center;
+    padding: 30px;
+}
+
+.section h2 {
+    margin-top: 0;
+}
+
 // section about
 
 .about {
     background-color: $silver;
-    padding: 30px;
+    position: relative;
+    min-height: 280px;
+    margin-bottom: 150px;
 }
 
-.about h2 {
-    margin-top: 0;
+.about--image {
+    max-height: 200px;
+    position: absolute;
+    left: 25%;
+    border-radius: 15px;
+    border: 5px solid $silver;
+
 }
 
 // section who
 
 .who {
     background-color: $primary;
-    padding: 30px;
+    color: white;
 }
 
-.who h2 {
-    margin-top: 0;
+
+// diference section
+
+// footer
+
+.footer {
+    background-color: $secondary;
+    display: flex;
+    padding: 20px 30px;
+    color: white;
+}
+
+.footer p {
+    flex: 1 0 50%;
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer a {
+    color: $silver;
+}
+
+.footer a:hover, .footer a:active {
+    color: $primary;
 }
