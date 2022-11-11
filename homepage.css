@@ -1,0 +1,9 @@
+html { box-sizing: border-box; } 
+
+*, ::after, ::before { box-sizing: inherit; } 
+
+:root {
+    --primary: #E17375;
+    --secondary: #5F7470;
+    --stribrna: #EAE6E5; 
+}
