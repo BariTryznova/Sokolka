@@ -1,0 +1,92 @@
+html { box-sizing: border-box; } 
+
+*, ::after, ::before { box-sizing: inherit; } 
+
+$primary: #E17375;
+$secondary: #5F7470;
+$silver: #EAE6E5;
+$primary-font: 'Montserrat', sans-serif;
+
+body {
+    margin: 0;
+    font-family: $primary-font;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+// header
+
+.logo {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.header--menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header--menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.header--menu a:hover, .header--menu a:visited, .header--menu a:active {
+    border: 1px solid $primary;
+    background-color: $primary;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+// hero section
+
+.hero {
+    background-color: $secondary;
+    color: white;
+    display: flex;
+    padding: 30px;
+}
+
+.hero img {
+    max-width: 150px;
+}
+
+.hero--inner {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.hero--inner h1 {
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.hero--inner p {
+    font-weight: 300;
+}
+
+// section about
+
+.about {
+    background-color: $silver;
+    padding: 30px;
+}
+
+.about h2 {
+    margin-top: 0;
+}
+
+// section who
+
+.who {
+    background-color: $primary;
+    padding: 30px;
+}
+
+.who h2 {
+    margin-top: 0;
+}

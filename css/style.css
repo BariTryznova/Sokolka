@@ -1,0 +1,83 @@
+html {
+  box-sizing: border-box;
+}
+
+*, ::after, ::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.logo {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.header--menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.header--menu a {
+  text-decoration: none;
+  color: black;
+}
+
+.header--menu a:hover, .header--menu a:visited, .header--menu a:active {
+  border: 1px solid #E17375;
+  background-color: #E17375;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.hero {
+  background-color: #5F7470;
+  color: white;
+  display: flex;
+  padding: 30px;
+}
+
+.hero img {
+  max-width: 150px;
+}
+
+.hero--inner {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.hero--inner h1 {
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.hero--inner p {
+  font-weight: 300;
+}
+
+.about {
+  background-color: #EAE6E5;
+  padding: 30px;
+}
+
+.about h2 {
+  margin-top: 0;
+}
+
+.who {
+  background-color: #E17375;
+  padding: 30px;
+}
+
+.who h2 {
+  margin-top: 0;
+}/*# sourceMappingURL=style.css.map */
